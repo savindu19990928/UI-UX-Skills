@@ -1,0 +1,28 @@
+{
+  "name": "ui-ux-skills",
+  "version": "1.0.0",
+  "description": "Pure UI/UX Skill Set for AI Coding Assistants (Antigravity, Claude, Cursor, Gemini, Windsurf)",
+  "type": "module",
+  "scripts": {
+    "search": "python scripts/search.py",
+    "audit": "node scripts/design-audit.mjs",
+    "tokens:generate": "node skills/design-system/scripts/generate-tokens.cjs",
+    "tokens:validate": "node skills/design-system/scripts/validate-tokens.cjs"
+  },
+  "keywords": [
+    "ui",
+    "ux",
+    "design-system",
+    "design-tokens",
+    "accessibility",
+    "wcag",
+    "tailwind",
+    "shadcn",
+    "agent-skills"
+  ],
+  "author": "Antigravity & Community",
+  "license": "MIT",
+  "devDependencies": {
+    "playwright": "^1.40.0"
+  }
+}
